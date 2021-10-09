@@ -7,6 +7,10 @@ main()
   int n=0, i, j, tmp;
   int A[101];
   n = ReadNum();
+  if(n>100)
+  {
+      Halt();
+  }
   for(i=0;i<n;i++)
   {
       A[i]=ReadNum();
